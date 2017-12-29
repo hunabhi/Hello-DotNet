@@ -24,4 +24,8 @@ public partial class _Default : System.Web.UI.Page
     {
         TextBox3.Text = (Convert.ToInt16(TextBox2.Text) - Convert.ToInt16(TextBox1.Text)).ToString();
     }
+    protected void Button3_Click(object sender, EventArgs e)
+    {
+        TextBox3.Text = (Convert.ToInt16(TextBox2.Text) * Convert.ToInt16(TextBox1.Text)).ToString();
+    }
 }
